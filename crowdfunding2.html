@@ -23,38 +23,73 @@
     </div>
 
     <div class="custom-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">Report a Crisis</h1>
-      <p class="lead">Fill in the form</p>
+      <h1 class="display-4">Crowdfunding</h1>
+      <p class="lead">Dogs' Voice</p>
     </div>
 
     <div class="container">
       <!-- ENTER CODE BELOW -->
-
-      <form class="mb-2">
-        <div class="form-group">
-          <label for="file">Upload photo or video</label>
-          <input type="file" class="form-control" id="file" name="file">
-        </div>
-        <div class="form-group">
-          <label for="location">Location</label>
-          <select class="form-control" id="location" name="location">
-            <option>Kariatidon 84, Alimos, 17455</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Sick/Injured Form</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="form-group" style="width:40%">
-            <a href="nearby.html" class="btn btn-lg btn-outline-primary" style="width: 100%;">Submit</a>
+        <div class="card mb-2">
+          <div class="card-header">
+            <h3 class="card-title">Crowdfunding</h3>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <div class="card bg-primary text-white text-center">
+                  <div class="card-header">
+                    <h5 class="card-title">Stray Wallet</h5>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">$4.900</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card bg-success text-white text-center">
+                  <div class="card-header">
+                    <h5 class="card-title">Contributors</h5>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">124</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card bg-warning text-white text-center">
+                  <div class="card-header">
+                    <h5 class="card-title">Strays to go</h5>
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">62</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-      </form>
-
-
+        <div class="row justify-content-center mb-2">
+          <button
+          data-vp-expandcard="true"
+          data-vp-disablewallet="true"
+          data-vp-customeremail="elenadede@live.com"
+          data-vp-customerfirstname="Elena"
+          data-vp-customersurname="Dede"
+          data-vp-text="Donate"
+          data-vp-publickey="LZmm8E8FLUJmRMPQFAssIV3mkzsrgQ3wbDIp7XcsZno="
+          data-vp-baseurl="https://demo.vivapayments.com"
+          data-vp-lang="en"
+          data-vp-amount="2500"
+          data-vp-description="Support the cause"style="width: 40%;">Donate</a>
+</form>
+        </div>
+        <div class="row justify-content-center mb-2">
+          <a href="dogs.html" class="btn btn-lg btn-outline-primary" style="width: 40%;">Adopt a stray</a>
+        </div>
+        <div class="row justify-content-center">
+          <a href="crisis1.html" class="btn btn-lg btn-outline-primary" style="width: 40%;">Report a crisis</a>
+        </div>
       <!-- STOP HERE -->
 
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
@@ -101,10 +136,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="assets/js/vendor/holder.min.js"></script>
     <script>
       Holder.addTheme('thumb', {
         bg: '#55595c',
@@ -112,4 +147,6 @@
         text: 'Thumbnail'
       });
     </script>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="https://demo.vivapayments.com/web/checkout/js"></script>
   </body>
